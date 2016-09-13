@@ -76,20 +76,6 @@ Use case ends.
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
   
-#### Use case: Renaming of an existing tag
-
-**MSS**
-1. User request to choose a tag
-2. AddressBook shows all the existing tag
-3. User choose a tag to rename
-4. rename the tag and confirm
-5. AddressBook will rename the tag in all place
-Use case ends.
-
-**Extensions**
-2a. There is no tag
-
-> Use case ends
 
 
 ## Appendix C : Non Functional Requirements
@@ -98,9 +84,6 @@ Use case ends.
 2. Should be able to hold up to 1000 persons.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
-5. Should have splendid UI.
-6. Should interact with users friendlly.
-7. Should have multiple languages version.
 
 ## Appendix D : Glossary
 
