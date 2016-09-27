@@ -28,15 +28,15 @@ public class LogicTest {
     @Rule
     public TemporaryFolder saveFolder = new TemporaryFolder();
 
-    private StorageFile saveFile;
+    private StorageStub saveFile;
     private AddressBook addressBook;
     private Logic logic;
 
     @Before
     public void setup() throws Exception {
-        saveFile = new StorageFile(saveFolder.newFile("testSaveFile.txt").getPath());
+        saveFile = new StorageStub();
         addressBook = new AddressBook();
-        saveFile.save(addressBook);
+        saveStub.save(addressBook);
         logic = new Logic(saveFile, addressBook);
     }
 
